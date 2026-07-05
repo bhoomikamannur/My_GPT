@@ -1,0 +1,93 @@
+.authPage {
+    background-color: var(--bg-primary);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authCard {
+    background-color: var(--bg-elevated);
+    padding: 2.5rem;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.authCard img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.authCard h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.authField {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.authField label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+}
+
+.authField input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: solid 1px var(--border-color);
+    background-color: var(--bg-input);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.authField input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.authSubmit {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--accent);
+    color: #fff !important;
+    border: none;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.authSubmit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.authError {
+    color: var(--danger) !important;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.authSwitch {
+    margin-top: 1.2rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.authSwitch a {
+    color: var(--accent) !important;
+    cursor: pointer;
+    text-decoration: none;
+}
